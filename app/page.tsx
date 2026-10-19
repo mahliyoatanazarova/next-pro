@@ -20,6 +20,9 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-3">
+          <Link href="/admin">
+            <Button variant="outline">Admin panel</Button>
+          </Link>
           <Link href="/sign-in">
             <Button variant="outline">Log In</Button>
           </Link>
@@ -55,6 +58,11 @@ export default function Home() {
             <Link href="/sign-in">
               <Button variant="outline" className="px-6 py-5 text-base">
                 Sign In
+              </Button>
+            </Link>
+            <Link href="/admin">
+              <Button variant="secondary" className="px-6 py-5 text-base">
+                Admin panel
               </Button>
             </Link>
           </div>
