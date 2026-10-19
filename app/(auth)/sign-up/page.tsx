@@ -1,8 +1,5 @@
+import { AuthForm } from "@/components/auth-form";
+
 export default function SignUpPage() {
-  return (
-    <div>
-      <h1>Sign Up</h1>
-      <p>Ro‘yxatdan o‘tish sahifasi</p>
-    </div>
-  );
+  return <AuthForm mode="sign-up" />;
 }
